@@ -1,7 +1,10 @@
-.hero {
+.hero__sitx {
     background-image: url(../../img/Bitmap.png);
     background-repeat: no-repeat;
+    background-size: 100%;
     padding: 134px 0 134px 85px;
+    margin-top: 44px;
+    margin-bottom: 177px;
 }
 
 .hro__plan {
@@ -19,4 +22,52 @@
     line-height: 26px;
     color: #FEFCF7;
     max-width: 445px;
+}
+
+@media screen and (max-width:1000px) {
+    .hero__sitx {
+        background-image: url(../../img/Bitmap2.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 127px 0 126px 58px;
+        margin-top: 53px;
+        margin-bottom: 144px;
+    }
+    
+    .hro__plan {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .hero__taxt {
+        margin-top: 24px;
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 398px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .hero__sitx {
+        background-image: url(../../img/bitmap3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding: 101px 24px 137px 24px;
+        margin-top: 40px;
+        margin-bottom: 120px;
+        text-align: center;
+    }
+    
+    .hro__plan {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .hero__taxt {
+        max-width: 279px;
+        margin: 0 auto;
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 25px;
+    }
 }
