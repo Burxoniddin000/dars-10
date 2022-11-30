@@ -150,3 +150,55 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width:735px) {
+    .choose__container {
+        background-color: #2C343E;
+        border-radius: 10px;
+        margin-bottom: 120px;
+        padding: 80px 24px 79px 24px;
+    }
+    
+    
+    .choose__select {
+    flex-direction: column;
+      
+    }
+    
+    .choose__coffee {
+        text-align: center;
+
+    }
+
+    .choose__coffee +  .choose__coffee{
+        margin-top: 56px;
+    }
+    
+    .choose__nomer {
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 24px;
+        margin-top:0;
+    }
+    
+    .choose__pick {
+        font-size: 28px;
+        line-height: 32px;
+        color: #FEFCF7;
+        margin-bottom: 42px;
+    }
+
+    .choose__btm{
+        display: none;
+    }
+    
+    .choose__taxt {
+        font-size: 15px;
+        line-height: 25px;
+        max-width: 327px;
+    }
+    
+    .choose__box {
+       display: none;
+    }
+}
